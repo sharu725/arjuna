@@ -13,21 +13,8 @@ export default defineConfig({
       provider: "google", // default provider
       fonts: {
         // these will extend the default theme
-        sans: "Roboto",
+        sans: ['Onest'],
         mono: ["Fira Code", "Fira Mono:400,700"],
-        // custom ones
-        lobster: "Lobster",
-        lato: [
-          {
-            name: "Lato",
-            weights: ["400", "700"],
-            italic: true,
-          },
-          {
-            name: "sans-serif",
-            provider: "none",
-          },
-        ],
       },
     }),
   ],
