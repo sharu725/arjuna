@@ -2,11 +2,17 @@
     --ff: font-family: -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Cantarell, Ubuntu, roboto, noto, arial, sans-serif;
     --brand-color: #ea580c;
     --fs: 20px;
+    --color: #3e3e3e;
 }
 
 body {
     font-family: var(--ff);
     font-size: var(--fs);
+    color: var(--color)
+}
+
+p {
+    margin-bottom: 1em;
 }
 
 a {
