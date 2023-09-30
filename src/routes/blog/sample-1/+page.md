@@ -1,6 +1,6 @@
 ---
 layout: post
-title: A sample page
+title: Learned archery from Dronacharya.
 ---
 
 ## A sample post
