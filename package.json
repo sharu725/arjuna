@@ -20,8 +20,10 @@
     "@unocss/preset-web-fonts": "^0.52.4",
     "@unocss/reset": "^0.52.3",
     "mdsvex": "^0.10.6",
+    "sass": "^1.68.0",
     "svelte": "^3.54.0",
     "svelte-check": "^3.0.1",
+    "svelte-preprocess": "^5.0.4",
     "typescript": "^5.0.0",
     "unocss": "^0.52.3",
     "vite": "^4.3.0"

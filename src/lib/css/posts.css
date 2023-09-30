@@ -1,0 +1,145 @@
+.post,
+.page {
+    /* Tables */
+}
+
+.post p,
+.page p {
+    color: var(--color);
+    font-size: 20px;
+    margin-bottom: 1.2rem;
+}
+
+.post h1,
+.page h1,
+.post h2,
+.page h2,
+.post h3,
+.page h3,
+.post h4,
+.page h4,
+.post h5,
+.page h5,
+.post h6,
+.page h6 {
+    font-weight: bold;
+    margin-top: 1rem;
+}
+
+.post h1,
+.page h1 {
+    font-size: 3rem;
+}
+
+.post h2,
+.page h2 {
+    font-size: 2.5rem;
+}
+
+.post h3,
+.page h3 {
+    font-size: 2rem;
+}
+
+.post h4,
+.page h4 {
+    font-size: 1.6rem;
+}
+
+.post h5,
+.page h5 {
+    font-size: 1.4rem;
+}
+
+.post h6,
+.page h6 {
+    font-size: 1rem;
+}
+
+.post a,
+.page a {
+    text-decoration: underline;
+    transition-duration: var(--duration-300);
+}
+
+.post a:hover,
+.page a:hover {
+    color: var(--brand-color);
+}
+
+.post img,
+.page img {
+    max-width: 100%;
+}
+
+.post button,
+.page button {
+    display: inline-block;
+    outline: 0;
+    cursor: pointer;
+    border: 1px solid #1d1c1d 4d;
+    font-weight: 700;
+    background: #fff;
+    padding: 0 12px 1px;
+    font-size: 15px;
+    border-radius: 4px;
+    color: #1d1c1d;
+    height: 36px;
+    transition: all 80ms linear;
+}
+
+.post button:hover,
+.page button:hover {
+    box-shadow: 0 1px 3px 0 #000;
+    background: rgba(248, 248, 248, 1);
+}
+
+.post ul,
+.page ul,
+.post ol,
+.page ol,
+.post dl,
+.page dl,
+.post table,
+.page table,
+.post pre,
+.page pre {
+    color: var(--text-color);
+}
+
+.post pre,
+.page pre {
+    white-space: pre-line;
+}
+
+.post table,
+.page table {
+    margin-bottom: 1rem;
+    width: 100%;
+    border: 1px solid #e5e5e5;
+    border-collapse: collapse;
+}
+
+.post td,
+.page td,
+.post th,
+.page th {
+    padding: 0.25rem 0.5rem;
+    border: 1px solid #e5e5e5;
+}
+
+.post tbody tr:nth-child(odd) td,
+.page tbody tr:nth-child(odd) td,
+.post tbody tr:nth-child(odd) th,
+.page tbody tr:nth-child(odd) th {
+    background-color: #f9f9f9;
+}
+
+.post hr,
+.page hr {
+    position: relative;
+    margin: 1.5rem 0;
+    border: 0;
+    border-top: 1px solid #eee;
+    border-bottom: 1px solid #fff;
+}

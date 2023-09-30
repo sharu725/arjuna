@@ -1,7 +1,6 @@
 ---
 layout: page
-title: About
+title: About Us
 ---
 
-## About page
 This is a sample page
