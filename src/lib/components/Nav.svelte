@@ -1,7 +1,8 @@
 <script>
     import { fly } from "svelte/transition";
+    import { isPhone } from "$lib/stores";
 
-    let showMenu = false;
+    $: showMenu = $isPhone;
 </script>
 
 <nav class="flex items-center py-4" on:mouseleave={() => (showMenu = false)}>

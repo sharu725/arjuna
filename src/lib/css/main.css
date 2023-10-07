@@ -5,6 +5,7 @@
     --ff: -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Cantarell, Ubuntu, roboto, noto, arial, sans-serif;
     --brand-color: #ea580c;
     --fs: 20px;
+    --fsm: 18px;
     --color: #3e3e3e;
     --duration-300: 300ms;
     --mono: "Fira Mono", monospace;
@@ -24,10 +25,11 @@ a {
     text-decoration: underline;
 }
 
-
 .wrapper {
     max-width: 800px;
     margin: 0 auto;
+    padding-left: 1em;
+    padding-right: 1em;
 }
 
 .text-brand,
@@ -37,4 +39,10 @@ a {
 
 .bg-brand {
     background-color: var(--brand-color);
+}
+
+@media screen and (max-width: 768px) {
+    :root {
+        --fs: 18px;
+    }
 }

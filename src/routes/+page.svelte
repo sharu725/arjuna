@@ -8,11 +8,11 @@
   <h1 class="font-bold text-5xl mb-8">
     Pānduputra <span class="text-brand font-black">Arjuna</span>.
   </h1>
-  <p class="text-xl leading-relaxed">
+  <p class="leading-relaxed">
     I'm a warrior. I have killed Karna(my brother), Bhishma(my grandfather).
     <br />When it comes to saving the world from Adharma, I'll kill anyone!
   </p>
-  <p class="text-xl leading-relaxed">
+  <p class="leading-relaxed">
     I'm also known as Partha and Dhananjaya. I defeated Drupada of Panchala.
   </p>
 

@@ -6,7 +6,7 @@
 .post p,
 .page p {
     color: var(--color);
-    font-size: 20px;
+    font-size: var(--fs);
     margin-bottom: 1.2rem;
 }
 
