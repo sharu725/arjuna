@@ -16,7 +16,7 @@ HTML defines a long list of available inline tags, a complete list of which can 
 - **To bold text**, use `**`.
 - _To italicize text_, use `_`.
 - Abbreviations, like <abbr title="HyperText Markup Langage">HTML</abbr> should use `<abbr>`, with an optional `title` attribute for the full phrase.
-- Citations, like <cite>&mdash; Yuyustsu</cite>, should use `<cite>`.
+- Citations, like <cite>&mdash; webjeda</cite>, should use `<cite>`.
 - <del>Deleted</del> text should use `<del>` and <ins>inserted</ins> text should use `<ins>`.
 - Superscript <sup>text</sup> uses `<sup>` and subscript <sub>text</sub> uses `<sub>`.
 
@@ -43,14 +43,13 @@ Vivamus sagittis lacus vel augue rutrum faucibus dolor auctor. Duis mollis, est 
 Cum sociis natoque penatibus et magnis dis `code element` montes, nascetur ridiculus mus.
 
 ```js
-// Example can be run directly in your JavaScript console
+//sample js code
+const load = async({ fetch }) => {
+    const res = await fetch("/api/posts.json")
+    const posts = await res.json()
 
-// Create a function that takes two arguments and returns the sum of those arguments
-var adder = new Function("a", "b", "return a + b");
-
-// Call the function
-adder(2, 6);
-// > 8
+    return { posts };
+};
 ```
 
 Aenean lacinia bibendum nulla sed consectetur. Etiam porta sem malesuada magna mollis euismod. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa.

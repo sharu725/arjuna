@@ -67,6 +67,43 @@
     color: var(--brand-color);
 }
 
+.post ul,
+.page ul,
+.post ol,
+.page ol {
+    padding-left: 2em;
+    margin-bottom: 1em;
+    font-size: 0.95em;
+}
+
+.post ul,
+.page ul {
+    list-style-type: disc;
+}
+
+.post ol,
+.page ol {
+    list-style-type: decimal;
+}
+
+.post dt,
+.page dt {
+    font-weight: bold;
+    margin-top: 1em;
+
+}
+
+.post dl,
+.page dl {
+    font-size: 0.95em;
+    margin-bottom: 1em;
+}
+
+.post dd,
+.page dd {
+    padding-left: 2em;
+}
+
 .post img,
 .page img {
     max-width: 100%;

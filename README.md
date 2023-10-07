@@ -1,3 +1,3 @@
 # Arjuna
 
-- add maathjax
+- add mathjax

@@ -1,10 +1,13 @@
 @import url("./posts.css");
+@import url("./highlight.css");
+
 :root {
-    --ff: font-family: -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Cantarell, Ubuntu, roboto, noto, arial, sans-serif;
+    --ff: -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Cantarell, Ubuntu, roboto, noto, arial, sans-serif;
     --brand-color: #ea580c;
     --fs: 20px;
     --color: #3e3e3e;
-    --duration-300: 300ms
+    --duration-300: 300ms;
+    --mono: "Fira Mono", monospace;
 }
 
 body {
@@ -20,6 +23,7 @@ p {
 a {
     text-decoration: underline;
 }
+
 
 .wrapper {
     max-width: 800px;
