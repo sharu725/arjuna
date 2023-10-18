@@ -9,7 +9,7 @@
   class="grid place-items-center pt-12 md:pt-20 pb-6 md:pb-12"
   on:mouseleave={() => (showMenu = false)}
 >
-  <a href="/">
+  <a href="/" title="Home">
     <button
       on:mouseenter={() => (showMenu = true)}
       class="border rounded-full border-4 hover:border-orange-600 hover:bg-orange-200 duration-300"
@@ -21,18 +21,6 @@
       />
     </button>
   </a>
-  <ul class="flex">
-    {#if showMenu}
-      {#key showMenu}
-        <li class="ml-2" in:fly={{ y: -10 }}>
-          <a class="text-sm font-bold hover:text-brand" href="/">Home</a>
-        </li>
-        <li class="ml-2" in:fly={{ y: -10 }}>
-          <a class="text-sm font-bold hover:text-brand" href="/about">About</a>
-        </li>
-      {/key}
-    {/if}
-  </ul>
 
   <h1 class="font-bold text-3xl md:text-5xl my-5">
     Pānduputra <span class="text-brand font-black">Arjuna</span>.

@@ -5,10 +5,10 @@
 </script>
 
 <div class="">
-
   <p class="leading-relaxed">
-    I'm a warrior. I have killed Karna(my brother), Bhishma(my grandfather).
-    <br />When it comes to saving the world from Adharma, I'll kill anyone!
+    I'm a warrior. I have killed Karna(my brother), Bhishma(my grandfather), and
+    a lot many when it came for saving the world from Adharma.
+    <br />For Dharma, I'll kill anyone!
   </p>
   <p class="leading-relaxed">
     I'm also known as Partha and Dhananjaya. I defeated Drupada of Panchala.
