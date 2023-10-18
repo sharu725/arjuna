@@ -2,47 +2,53 @@
 @import url("./highlight.css");
 
 :root {
-    --ff: -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Cantarell, Ubuntu, roboto, noto, arial, sans-serif;
-    --brand-color: #ea580c;
-    --fs: 20px;
-    --fsm: 18px;
-    --color: #3e3e3e;
-    --duration-300: 300ms;
-    --mono: "Fira Mono", monospace;
+  --ff: -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui,
+    helvetica neue, helvetica, Cantarell, Ubuntu, roboto, noto, arial,
+    sans-serif;
+  --brand-color: #ea580c;
+  --fs: 20px;
+  --fsm: 18px;
+  --color: #3e3e3e;
+  --duration-300: 300ms;
+  --mono: "Fira Mono", monospace;
+}
+html,
+body {
+  scroll-behavior: smooth;
 }
 
 body {
-    font-family: var(--ff);
-    font-size: var(--fs);
-    color: var(--color)
+  font-family: var(--ff);
+  font-size: var(--fs);
+  color: var(--color);
 }
 
 p {
-    margin-bottom: 1em;
+  margin-bottom: 1em;
 }
 
 a {
-    text-decoration: underline;
+  text-decoration: underline;
 }
 
 .wrapper {
-    max-width: 800px;
-    margin: 0 auto;
-    padding-left: 1em;
-    padding-right: 1em;
+  max-width: 800px;
+  margin: 0 auto;
+  padding-left: 1em;
+  padding-right: 1em;
 }
 
 .text-brand,
 .hover\:text-brand:hover {
-    color: var(--brand-color)
+  color: var(--brand-color);
 }
 
 .bg-brand {
-    background-color: var(--brand-color);
+  background-color: var(--brand-color);
 }
 
 @media screen and (max-width: 768px) {
-    :root {
-        --fs: 18px;
-    }
+  :root {
+    --fs: 18px;
+  }
 }
