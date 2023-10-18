@@ -1,5 +1,5 @@
 <script>
-  import { SITE_TITLE } from '$lib/constants.js';
+  import { SITE_TITLE } from "$lib/constants.js";
 
   export let data;
 

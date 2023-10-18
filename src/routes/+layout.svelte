@@ -6,6 +6,9 @@
   import { isPhone } from "$lib/stores";
   import Footer from "$lib/components/Footer.svelte";
   import { onNavigate } from "$app/navigation";
+  import { page } from "$app/stores";
+  import { repoLink } from "$lib/constants";
+  import { dev } from "$app/environment";
 
   let screenSize = 1000;
 
@@ -23,9 +26,20 @@
   });
 </script>
 
-<div class="wrapper font-sans">
+<div class="wrapper relative font-sans">
   <Header />
   <slot />
   <Footer />
+  {#if dev}
+    <a
+      class="absolute right-0 top-2"
+      target="_blank"
+      href="{repoLink}/tree/master/src/routes{$page.route.id}"
+      title="Edit this page(dev only)"
+    >
+      <div class="i-iconoir-page-edit" />
+    </a>
+  {/if}
 </div>
+
 <svelte:window bind:innerWidth={screenSize} />

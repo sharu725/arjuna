@@ -1,5 +1,5 @@
 <script>
-  import { fly } from "svelte/transition";
+  import { FIRST_NAME, LAST_NAME } from "$lib/constants";
   import { isPhone } from "$lib/stores";
 
   $: showMenu = $isPhone;
@@ -23,6 +23,6 @@
   </a>
 
   <h1 class="font-bold text-3xl md:text-5xl my-5">
-    Pānduputra <span class="text-brand font-black">Arjuna</span>.
+    {FIRST_NAME} <span class="text-brand font-black">{LAST_NAME}</span>.
   </h1>
 </nav>
