@@ -1,8 +1,3 @@
-.post,
-.page {
-    /* Tables */
-}
-
 .post p,
 .page p {
     color: var(--color);
@@ -28,27 +23,27 @@
 
 .post h1,
 .page h1 {
-    font-size: 3rem;
+    font-size: 2.5rem;
 }
 
 .post h2,
 .page h2 {
-    font-size: 2.5rem;
+    font-size: 2rem;
 }
 
 .post h3,
 .page h3 {
-    font-size: 2rem;
+    font-size: 1.6rem;
 }
 
 .post h4,
 .page h4 {
-    font-size: 1.6rem;
+    font-size: 1.4rem;
 }
 
 .post h5,
 .page h5 {
-    font-size: 1.4rem;
+    font-size: 1.2rem;
 }
 
 .post h6,

@@ -5,7 +5,7 @@ import presetAttributify from "@unocss/preset-attributify";
 import presetWebFonts from "@unocss/preset-web-fonts";
 
 export default defineConfig({
-  shortcuts: [{ header: "font-bold text-3xl mb-3" }],
+  shortcuts: [{ header: "font-bold leading-snug md:leading-snug text-4xl md:text-6xl mb-6" }],
   presets: [
     presetUno(),
     presetAttributify({}),

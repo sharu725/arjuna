@@ -1,4 +1,6 @@
 <script>
+  import { SITE_TITLE } from '$lib/constants.js';
+
   export let data;
 
   $: ({ posts } = data);
@@ -25,6 +27,10 @@
     {/each}
   </ul>
 </div>
+
+<svelte:head>
+  <title>{SITE_TITLE}</title>
+</svelte:head>
 
 <style>
   .work a:hover {
