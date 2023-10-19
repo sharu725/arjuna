@@ -1,3 +1,1 @@
 # Arjuna
-
-- add mathjax
